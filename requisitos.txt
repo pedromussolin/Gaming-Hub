@@ -1,30 +1,86 @@
 ---------- Requisitos do projeto -----------
 
-- Criação de conta = 
-    - Tela de criação de conta, com opção para criar a conta no próprio site e criar a conta a partir de plataformas como steam, epic games e google.
+-Criação de conta:
 
-    - Criação de conta terá duas caixas de texto, para iniciar o processo de cadastro, escolhendo o e-mail e senha, Abaixo das duas caixas de texto terá um botão para prosseguir com o preenchimento dos dados (opção de criação de conta diretamente no site). Abaixo deste botão irá ter 3 botões/ícones que irão prosseguir com o cadastro a partir da plataforma referente ao botão/ícone.
+    -Tela de criação de conta com opções para criar a conta diretamente no site ou através de plataformas como Steam, Epic Games e Google.
+    - A tela de criação de conta terá duas caixas de texto para inserir o e-mail e a senha.
+    - Abaixo das caixas de texto, haverá um botão para prosseguir com o preenchimento dos dados.
+    - Também haverá 3 botões/ícones que permitirão a criação de conta através das plataformas mencionadas.
+    - Após o cadastro, um e-mail de confirmação será enviado para a conta cadastrada. A confirmação por e-mail será necessária para acessar o site. (opção de cadastro através do site)
 
-    - Após o cadastro, será enviado um e-mail de confirmação de conta para a conta cadastrada, somente após a confirmação será possível acessar o site.
+Login:
 
-- Login = 
-    - Tela de login, com opção de logar utilizando a conta do próprio site e e logar a partir de plataformas como steam, epic games e google.
+    -Tela de login com opções para fazer login utilizando a conta do site ou através de plataformas como Steam, Epic Games e Google.
+    -A tela de login terá duas caixas de texto para inserir o usuário (e-mail ou nome de usuário) e a senha.
+    -Haverá um botão "Lembrar de mim" e um link "Esqueci minha senha" que redirecionará para a tela de recuperação de senha.
+    -Abaixo desses elementos, haverá um botão "LOGIN" para verificar as credenciais e acessar a plataforma.
+    -Também haverá 3 botões/ícones que permitirão fazer login utilizando as plataformas mencionadas.
 
-    - Terá duas caixas de texto, uma para o usuário (poderá ser o e-mail ou o nome de usuário) e outra para a senha, abaixo destas caixas de texto terá um botão para 'Lembrar de mim' e um texto ('Esqueci minha senha') que ao ser clicado redirecionará para a tela de recuperação de senha, abaixo destes dois elementos terá o botão de 'LOGIN' que executará a checagem das credenciais e acessará a plataforma. Abaixo deste botão irá ter 3 botões/ícones que irão prosseguir com o login utilizando a plataforma referente ao botão/ícone.
+Recuperação de senha:
 
+    -Na página de recuperação de senha, haverá uma caixa de texto para inserir o e-mail da conta cadastrada.
+    -Abaixo da caixa de texto, haverá um botão para enviar a confirmação de recuperação de senha para o e-mail informado.
+    -Após a confirmação do e-mail, o usuário será direcionado para a próxima tela onde poderá informar a nova senha.
+    -Nessa tela, haverá duas caixas de texto para inserir e confirmar a nova senha.
+    -Abaixo dessas caixas de texto, haverá um botão de confirmação que executará a troca de senha e direcionará para a página de login.
 
-- Recuperação de senha =
-    - Ao ser direcionado para a página de recuperação de senha, terá uma caixa de texto para inserir o e-mail da conta cadastrada e um botão abaixo para enviar a confirmação de recuperação de senha para o e-mail informado, após a confirmação do e-mail, será direcionado para a próxima tela onde informará a nova senha.
+Perfil:
 
-    - Nesta próxima tela, terá duas caixas de texto, uma para informar a senha nova e a outra para confirmar/reescrever a nova senha, abaixo destes dois objetos terá um botão de confirmação que executará a troca de senha e direcionará para a página de login.
+    -Visão pública:
+        -O perfil terá uma foto de perfil, nome do usuário e um texto de descrição.
+        -Haverá uma aba com os amigos do usuário, uma aba de configurações por jogo, uma seção para exibir o time ao qual o usuário pertence (caso exista) e os jogos que o usuário joga atualmente (escolhidos pelo usuário).
+    
+    -Visão privada:
+        -Além das funcionalidades da visão pública, o perfil terá um botão para editar o perfil do usuário.
 
-- Perfil = 
-    - Visão pública = Terá uma foto de perfil, nome do usuário, um texto explicando o sobre, uma aba com os amigos deste usuário, aba de configurações por jogo do usuário, time que o usuário participa (caso ele participe de algum)
+Configurações do usuário:
 
-    - Visão privada = Terá uma foto de perfil, nome do usuário, um texto explicando o sobre, uma aba com os amigos deste usuário, aba de configurações por jogo do usuário, time que o usuário participa (caso ele participe de algum)
+    -Visão pública:
+        -Ao clicar na aba de configurações do usuário no perfil, será exibida uma lista de jogos nos quais o usuário cadastrou suas configurações em forma de cards.
+        -Ao clicar em um card, o usuário será direcionado para uma página que exibirá todas as configurações utilizadas pelo usuário para o jogo selecionado.
+    
+    -Visão privada:
+        -Além das funcionalidades da visão pública, o usuário terá a opção de editar suas configurações.
+        -Haverá dois botões, um para editar as configurações de um jogo já cadastrado e outro para cadastrar configurações para um novo jogo.
 
+Amigos:
 
+    -Visão pública:
+        -Ao clicar na aba de amigos, será exibida uma lista dos amigos do usuário.
+        -Se o usuário clicar em um amigo da lista, será direcionado para o perfil do amigo respectivo.
 
+    -Visão privada:
+        -Além das funcionalidades da visão pública, o usuário poderá adicionar amigos a partir de um usuário específico ou a partir da lista de amigos de plataformas como Steam, Epic Games, etc.
+        -Também haverá um botão para excluir amigos da lista.
+
+Players profissionais:
+
+    -Haverá uma aba com cards referentes a cada jogo.
+    -Ao clicar no card de um jogo, será exibida uma lista dos perfis dos jogadores profissionais desse jogo.
+
+Campeonatos:
+
+    -Serão exibidas as datas dos campeonatos em andamento para cada jogo.
+    -Também serão exibidos os próximos campeonatos para cada jogo.
+
+Time:
+
+    -Haverá uma lista de times e uma caixa de pesquisa para procurar um time.
+    -Ao entrar na página de um time, será exibida a logo do time, uma descrição sobre o time, os campeonatos em que o time está participando e os integrantes do time.
+    -Clicar na logo do time no perfil de um usuário direcionará para a página do time correspondente.
+
+Social:
+
+    -Fóruns de discussão:
+        -Haverá uma lista de discussões criadas por outros usuários.
+        -Haverá um botão para criar uma nova discussão.
+
+    -Transmissões ao vivo:
+        -Será exibida uma lista das principais transmissões ao vivo na Twitch para cada jogo.
+
+Modo claro e escuro:
+
+    -O site terá suporte aos modos claro e escuro, permitindo ao usuário escolher entre eles.
 
 
 
