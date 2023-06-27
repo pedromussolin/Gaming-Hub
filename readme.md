@@ -1,4 +1,4 @@
--- Projeto Django -- 
+-- Projeto Gaming Hub -- 
 
 • Tema:
 
@@ -35,5 +35,9 @@
 
 - Modo claro e Modo escuro
 
+• Tecnologias utilizadas:
 
+- Python
+- Django (python)
+- Figma
 
