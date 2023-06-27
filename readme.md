@@ -1,10 +1,10 @@
 -- Projeto Gaming Hub -- 
 
-• Tema:
+-----------------------------Tema-----------------------------
 
 - Comunidade de jogadores: "Rede social" para jogadores de jogos virtuais
 
-• Funcionalidades:
+------------------------Funcionalidades------------------------
 
 - Profissionais
     - Configurações de players profissionais
