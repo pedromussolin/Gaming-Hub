@@ -41,3 +41,6 @@
 - Django (python)
 - Figma
 
+• Plataformas suportadas:
+
+- Web
