@@ -35,12 +35,12 @@
 
 - Modo claro e Modo escuro
 
-• Tecnologias utilizadas:
+---------------------------------------------Tecnologias utilizadas------------------------------------------------
 
 - Python
 - Django (python)
 - Figma
 
-• Plataformas suportadas:
+---------------------------------------------Plataformas suportadas------------------------------------------------
 
 - Web
