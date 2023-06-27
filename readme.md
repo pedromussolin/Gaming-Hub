@@ -1,10 +1,10 @@
 -- Projeto Gaming Hub -- 
 
-• Tema:
+----------------------------------------------------------Tema----------------------------------------------------------
 
 - Comunidade de jogadores: "Rede social" para jogadores de jogos virtuais
 
-• Funcionalidades:
+-----------------------------------------------------Funcionalidades----------------------------------------------------
 
 - Profissionais
     - Configurações de players profissionais
@@ -35,12 +35,12 @@
 
 - Modo claro e Modo escuro
 
-• Tecnologias utilizadas:
+---------------------------------------------Tecnologias utilizadas------------------------------------------------
 
 - Python
 - Django (python)
 - Figma
 
-• Plataformas suportadas:
+---------------------------------------------Plataformas suportadas------------------------------------------------
 
 - Web
