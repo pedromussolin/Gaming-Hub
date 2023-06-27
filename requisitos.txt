@@ -1,0 +1,33 @@
+---------- Requisitos do projeto -----------
+
+- Criação de conta = 
+    - Tela de criação de conta, com opção para criar a conta no próprio site e criar a conta a partir de plataformas como steam, epic games e google.
+
+    - Criação de conta terá duas caixas de texto, para iniciar o processo de cadastro, escolhendo o e-mail e senha, Abaixo das duas caixas de texto terá um botão para prosseguir com o preenchimento dos dados (opção de criação de conta diretamente no site). Abaixo deste botão irá ter 3 botões/ícones que irão prosseguir com o cadastro a partir da plataforma referente ao botão/ícone.
+
+    - Após o cadastro, será enviado um e-mail de confirmação de conta para a conta cadastrada, somente após a confirmação será possível acessar o site.
+
+- Login = 
+    - Tela de login, com opção de logar utilizando a conta do próprio site e e logar a partir de plataformas como steam, epic games e google.
+
+    - Terá duas caixas de texto, uma para o usuário (poderá ser o e-mail ou o nome de usuário) e outra para a senha, abaixo destas caixas de texto terá um botão para 'Lembrar de mim' e um texto ('Esqueci minha senha') que ao ser clicado redirecionará para a tela de recuperação de senha, abaixo destes dois elementos terá o botão de 'LOGIN' que executará a checagem das credenciais e acessará a plataforma. Abaixo deste botão irá ter 3 botões/ícones que irão prosseguir com o login utilizando a plataforma referente ao botão/ícone.
+
+
+- Recuperação de senha =
+    - Ao ser direcionado para a página de recuperação de senha, terá uma caixa de texto para inserir o e-mail da conta cadastrada e um botão abaixo para enviar a confirmação de recuperação de senha para o e-mail informado, após a confirmação do e-mail, será direcionado para a próxima tela onde informará a nova senha.
+
+    - Nesta próxima tela, terá duas caixas de texto, uma para informar a senha nova e a outra para confirmar/reescrever a nova senha, abaixo destes dois objetos terá um botão de confirmação que executará a troca de senha e direcionará para a página de login.
+
+- Perfil = 
+    - Visão pública = Terá uma foto de perfil, nome do usuário, um texto explicando o sobre, uma aba com os amigos deste usuário, aba de configurações por jogo do usuário, time que o usuário participa (caso ele participe de algum)
+
+    - Visão privada = Terá uma foto de perfil, nome do usuário, um texto explicando o sobre, uma aba com os amigos deste usuário, aba de configurações por jogo do usuário, time que o usuário participa (caso ele participe de algum)
+
+
+
+
+
+
+
+
+
